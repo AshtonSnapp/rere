@@ -1,7 +1,17 @@
+//--> Imports & Modules <--
+
 use mlua::prelude::*;
 
 use lune_utils::TableBuilder;
 use tokio::io::{stderr, stdout, AsyncWriteExt};
+
+//--> Type Aliases <--
+
+//--> Structs <--
+
+//--> Enums <--
+
+//--> Functions & Impls <--
 
 pub fn module(luau: &Lua) -> LuaResult<LuaTable> {
     TableBuilder::new(luau)?

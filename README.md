@@ -1,2 +1,3 @@
 # rere
-A standalone Luau runtime made in Rust.
+
+Pronounced "ray ray" - A standalone Luau runtime made in Rust.
